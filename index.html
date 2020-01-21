@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pyromania</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <img src="images/title.svg" alt="pyromania title" class="title">
+            
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/ham.svg" alt="toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-mobile" id="nav">
+                    <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <section>
+        <img src="images/fireEyeLogo.svg" alt="fire cult image" class="fireEye">
+        <h1>Hellraising in the Modern Era</h1>
+        <p class="subhead">Join the Cult of Thermodynamics and usher in a new age of fire!</p>
+
+    </section>
+</div>
+
+<div class="firePattern"></div>
+
+<div class="fire-container">
+    <div class="container">
+        <ul>
+            <li>
+                <img src="images/fireAlarmIcon.svg" alt="fire alarm">
+                <p>Join the Cult of Thermodynamics and learn more about the wonders of fire! 
+                For only $99.99, you'll recieve access to our massive library of over 10,000 
+                Thermodynamic texts!
+            </p>
+            </li>
+
+            <li>
+                <img src="images/litmatchIcon.svg" alt="lit match">
+                <p>Once you're thoroughly enlightened, subscribe to our initiation service 
+                for $666 a month to teach you all you need to know about being a responsible 
+                zealot of the new age!
+            </p>
+            </li>
+
+            <li>
+                <img src="images/chaliceIcon.svg" alt="fire chalice">
+                <p>After completing the initiation process, you'll be ready to become a fully fledged
+                 cult member! Buy our exclusive golden sigil for only $1.00 as 
+                 proof of our eternal partnership!
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="black-container">
+    <div class="container">
+        <ul>
+            <li>
+                <figure>
+                <img src="images/cultguy.svg" alt="">
+                <blockquote>
+                "Joining the Cult of Thermodynamics really made me realize 
+                just how much I want to die!"
+                </blockquote>
+                <figcaption>- Daniel Fisher</figcaption>
+                </figure>
+            </li>
+
+            <li>
+                <figure>
+                <img src="images/cultgirl.svg" alt="">
+                <blockquote>
+                    "Life has never been better since joining the COT! We have bonfire gatherings
+                    on sundays, and free barbecue!"
+                </blockquote>
+                <figcaption>- Ann Vierra</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Begin your free trial today!</h2>
+    <a href="#" class=cta>Get Started!</a>
+</div>
+
+<div class="footerPattern"></div>
+
+<footer>
+    <div class="footer-container">
+        <div class="container">
+            <a href="#">
+                <img src="images/title.svg" alt="pyromania title">
+            </a>
+            <p class="address">Redrum Crossing, 16969 <br> UK</p>
+            <p>pyromania - property of - redman industries</p>
+
+            <ul class="footer-links">
+                <li>
+                    <a href="#">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="#">Privacy Policy</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</footer>
+
+<script>
+
+var menu = document.getElementById("menu");
+var nav = document.getElementById("nav");
+var exit = document.getElementById("exit");
+
+menu.addEventListener("click", function(e){
+    nav.classList.toggle("hide-mobile");
+    e.preventDefault();
+
+});
+
+exit.addEventListener("click", function(e){
+    nav.classList.add("hide-mobile");
+    e.preventDefault();
+
+});
+
+
+</script>
+
+<!-- Made by Kosmic_Arts -->
+
+</body>
+</html>

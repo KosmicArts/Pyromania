@@ -1,0 +1,342 @@
+/* Made by Kosmic_Arts */
+
+body{
+    font-family: "Segoe UI";
+    color: #515150;
+    margin: 0;
+}
+
+.hide-mobile{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    padding: 0.7em 1.2em;
+
+}
+
+.title{
+    width: 105px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5em;
+}
+
+nav ul{
+    position: fixed;
+    width: 60%;
+    text-align: left;
+    background: #303030;
+    height: 100%;
+    padding-top: 3em;
+    top: 0;
+    right: 0;
+    z-index: 7;
+}
+
+nav ul li a{
+    display: block;
+    background-color: #474747;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 1em 2em;
+}
+
+nav ul li a:hover{
+    background-color: #5e5e5e;
+    color: #FFC300;
+}
+
+.exit-btn{
+    margin-bottom: 1em;
+    margin-top: -2em;
+    padding: 0.2em 1.7em;
+    text-align: right;
+}
+
+.exit-btn img{
+    width: 15px;
+    cursor: pointer;
+
+}
+
+.menu{
+    width: 22px;
+    margin-top: 0.5em;
+}
+
+.fireEye{
+    width: 100px;
+    margin: 2em auto 1em auto;
+}
+
+h1, .subhead{
+    position: relative;
+    margin: 0;
+    z-index: 3;
+}
+
+.subhead{
+    line-height: 2em;
+    font-size: 0.9em;
+    padding-bottom: 3em;
+}
+
+.firePattern {
+    background-image: linear-gradient(319deg, #FFC300 15px, transparent 14px), linear-gradient(39deg, #FFC300 15px, transparent 17px);
+    background-size: 20px 23px;
+    background-repeat: repeat-x;
+    height: 15px;
+}
+
+.fire-container{
+    width: 100%;
+    color: #fff;
+    background: #FFC300;
+    margin-top: 0;
+    font-weight: 620;
+    padding: 4em 0 2em;
+}
+
+.fire-container li{
+    margin-bottom: 3em;
+}
+
+.fire-container img{
+    width: 25%;
+}
+
+.fire-container ul li:nth-of-type(2) img{
+    width: 8%;
+}
+
+.fire-container ul li:nth-of-type(3) img{
+    width: 11%;
+}
+
+.black-container{
+    width: 100%;
+    background: #515150;
+    color: #fff;
+    padding: 4em 0 2em;
+}
+
+.black-container ul li:first-child{
+    margin-bottom: 2.5em;
+}
+
+.black-container ul li:nth-of-type(2){
+    padding-right: 5%;
+}
+
+figure{
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+
+}
+
+figcaption{
+    padding-right: 1em;
+    margin-top: -1.5%;
+    font-weight: 620;
+    color: #FFE647;
+}
+
+h2{
+    margin-top: 9%;
+}
+
+.cta{
+    text-decoration: none;
+    background: #FFC300;
+    border-radius: 50px;
+    padding: 0.5em 0.9em;
+    margin-bottom: 25%;
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #fff;
+    
+}
+
+.footerPattern {
+    background-image: linear-gradient(319deg, #EEEEEE 15px, transparent 14px), linear-gradient(39deg, #EEEEEE 15px, transparent 17px);
+    background-size: 20px 23px;
+    background-repeat: repeat-x;
+    height: 15px;
+}
+
+.footer-container{
+    background: #EEEEEE;
+    color: rgba(81, 81, 80, 0.5);
+    padding: 3em 0;
+    width: 100%;
+}
+
+.footer-links li{
+    display: inline-block;
+}
+
+.footer-container p:nth-of-type(1){
+    margin: 0;
+    margin-bottom: 10%;
+}
+
+.footer-container p:nth-of-type(2){
+    font-size: 0.9em;
+}
+
+.footer-links a{
+    margin: 0 auto;
+    font-size: 0.9em;
+    color: rgba(81, 81, 80, 0.5);
+}
+
+/* DESKTOP DESIGN */
+
+@media only screen and (min-width: 650px){
+    nav ul{
+        width: 40%;
+    }
+
+    .fireEye{
+        width: 120px;
+    }
+
+   h1{
+       font-size: 2em;
+   }
+
+   .subhead{
+       font-size: 1.4em;
+       margin-bottom: 5%;
+   }
+
+   .fire-container{
+       margin: 0;
+   }
+
+   .fire-container ul{
+       display: flex;
+   }
+
+   .fire-container img{
+       width: 120px;
+   }
+
+   .fire-container ul li{
+    padding: 2.5em 1.5em;
+    margin-bottom: 0;
+    }
+
+   .fire-container ul li:nth-of-type(2) img{
+    width: 40px;
+    margin-top: -3.1em;
+    }
+
+    .fire-container ul li:nth-of-type(3) img{
+        width: 50px;
+        margin-top: -2em;
+    }
+
+    .black-container ul{
+        display: flex;
+    }
+
+    .black-container ul img{
+        float: left;
+    }
+
+    .black-container ul li{
+        text-align: left;
+    }
+
+    .black-container blockquote{
+        padding-top: 2em;
+        margin-left: 15em;
+    }
+
+    .black-container figcaption{
+        padding-left: 15em;
+    } 
+    
+}
+
+@media only screen and (max-width: 796px){
+    .black-container{
+        padding-bottom: 4em;
+    }
+    
+    .black-container ul{
+        flex-direction: column;
+    }
+
+    .black-container ul{
+        margin: 1em 2em;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .cta{
+        display: inline-block;
+        width: 20%;
+    }
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a:hover{
+        background: none;
+        color: #444443;
+    }
+
+    nav ul li a{
+        
+        background: none;
+        color: #8f8f8c;
+    }
+
+    
+
+    
+}
